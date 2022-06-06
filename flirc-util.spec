@@ -23,7 +23,7 @@ BuildRequires:  gcc
 Small command-line program to poke at ALSA bits.
 
 %prep
-%setup -q
+%setup -q -n 'flirc-sdk-%{version}'
 
 %build
 cd cli
