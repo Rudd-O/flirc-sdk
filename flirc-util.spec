@@ -12,7 +12,7 @@ License:        Proprietary
 URL:            https://github.com/flirc/sdk
 Source0:        flirc-sdk-%{version}.tar.gz
 
-BuildRequires:  libusb-devel
+BuildRequires:  libusb1-devel
 BuildRequires:  readline-devel
 BuildRequires:  hidapi-devel
 BuildRequires:  binutils
